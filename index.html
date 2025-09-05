@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ሚኪያስ ሆቴል - ምናሌ</title>
+  <meta name="description" content="ሚኪያስ ሆቴል ጣፋጭ ምናሌ፣ በኤልሰን ሶፍትዌር ግሩፕ በልዩ ሁኔታ የተነደፈ።">
+  <meta name="keywords" content="ምግብ ቤት, ምናሌ, ሚኪያስ ሆቴል, ኤልሰን ሶፍትዌር ግሩፕ">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;500;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="index-page">
+  <header id="header" class="header fixed-top">
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-end">
+        <div class="contact-info d-flex align-items-center">
+          <!-- Language Translation Widget -->
+          <p>Choose Language to Translate</p>
+          <div id="google_translate_element"></div>
+          <script type="text/javascript">
+            function googleTranslateElementInit() {
+              try {
+                new google.translate.TranslateElement({
+                  pageLanguage: 'am',
+                  includedLanguages: 'am,om,ti,aa,so,en,zh-CN,hi,es,fr,ar,sw,ha,yo,ig,ff',
+                  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+              } catch (e) {
+                console.error('Google Translate failed to load:', e);
+                alert('ትርጉም አገልግሎት አልተጫነም። እባክዎ የኢንተርኔት ግንኙነትዎን ያረጋግጡ።');
+              }
+            }
+          </script>
+          <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <!-- End Language Translation Widget -->
+        </div>
+      </div>
+    </div>
+
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">መነሻ</a></li>
+            <li><a href="#menu">ምናሌ</a></li>
+            <li><a href="#specials">ልዩ ምግቦች</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list navbarr"></i>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-item active">
+          <section class="mikiyas">
+            <div class="sectionOne">
+              <div class="video-container">
+                <video autoplay muted loop playsinline class="bg-video">
+                  <source src="assets/css/124830-732633115_small.mp4" type="video/mp4">
+                </video>
+                <div class="content">
+                  <h1>Welcome to My Website</h1>
+                  <h2>Sara Hotel</h2>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+      <div class="bestewala container section-title" data-aos="fade-up">
+        <h2>ምናሌ</h2>
+        <div><span>ጣፋጭ</span> <span class="description-title">ምናሌያችንን ይመልከቱ</span></div>
+      </div>
+
+      <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-between align-items-center">
+            <ul class="menu-filters isotope-filters">
+              <li data-filter="*" class="filter-active">ሁሉም</li>
+              <li data-filter=".filter-starters">ቁርስ</li>
+              <li data-filter=".filter-salads">ምሳ</li>
+              <li data-filter=".filter-specialty">እራት</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+           <img src="assets/img/download.jpg" class="menu-img" alt="ፍርፍር">
+            <div class="menu-content">
+              <a href="#">ፍርፍር</a><span>150 ብር</span>
+            </div>
+            <div class="menu-ingredients"></div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+          <img src="assets/img/imageoffood.jpg" class="menu-img" alt="ፍርፍር ከዳቦ">
+            <div class="menu-content">
+              <a href="#">ፍርፍር ከዳቦ</a><span>95 ብር</span>
+            </div>
+            <div class="menu-ingredients"></div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/firfir-icon.webp" class="menu-img" alt="ቁርጥ ስጋ">
+            <div class="menu-content">
+              <a href="#">ሽሮ</a><span>120 ብር</span>
+            </div>
+            <div class="menu-ingredients"></div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+          <img src="assets/img/thenew.jpg" class="menu-img" alt="በየአይነት">
+            <div class="menu-content">
+              <a href="#">ቁርጥ ስጋ</a><span>1000 ብር</span>
+            </div>
+            <div class="menu-ingredients">የበሬና የፍየል ስጋ፣ በጣም ጣፋጭ</div>
+          </div>
+          
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="assets/img/thenew.jpg" class="menu-img" alt="በየአይነት">
+            <div class="menu-content">
+              <a href="#">በየአይነት</a><span>150 ብር</span>
+            </div>
+            <div class="menu-ingredients">በየአይነት ልዩ ምግባችን ሲሆን ብዙ ንጥረ ነገሮችን ያካትታል</div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-starters">
+            <img src="assets/img/thenew.jpg" class="menu-img" alt="ለስላሳ መጠጥ">
+            <div class="menu-content">
+              <a href="#">ለስላሳ መጠጥ</a><span>100 ብር</span>
+            </div>
+            <div class="menu-ingredients">ኮካ፣ ፔፕሲ፣ ብሪንዳ፣ ብርቱካን</div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="assets/img/specials-3.jpg" class="menu-img" alt="ጥብስ">
+            <div class="menu-content">
+              <a href="#">ጥብስ</a><span>1200 ብር</span>
+            </div>
+            <div class="menu-ingredients">የበግ እና የበሬ ስጋ</div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-salads">
+            <img src="assets/img/reservation.jpg" class="menu-img" alt="ቢራ እና አልኮል መጠጦች">
+            <div class="menu-content">
+              <a href="#">ቢራ እና አልኮል መጠጦች</a><span>100 ብር</span>
+            </div>
+            <div class="menu-ingredients">የተለያዩ ቢራዎች እና አልኮል መጠጦች</div>
+          </div>
+
+          <div class="col-lg-6 menu-item isotope-item filter-specialty">
+            <img src="assets/img/specials-4.jpg" class="menu-img" alt="ሶፊ ማልት">
+            <div class="menu-content">
+              <a href="#">ሶፊ ማልት</a><span>20 ብር</span>
+            </div>
+            <div class="menu-ingredients">ከአልኮል ነፃ የሆነ ማልት መጠጥ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>አድራሻ</h4>
+            <p>አዲስ አበባ፣ ኢትዮጵያ</p>
+            <p>ሚኪያስ ሆቴል በአዲስ አበባ ልብ ውስጥ ይገኛል፣ ጣፋጭ ምግቦችን እና ምቹ አካባቢን ያቀርባል።</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>እውቂያ</h4>
+            <p>
+              <strong>ስልክ:</strong> <span><a href="tel:+251966747177">+251966747177</a></span><br>
+              <strong>ኢሜይል:</strong> <span><a href="mailto:info@mikiyashotel.com">info@mikiyashotel.com</a></span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>የመክፈቻ ሰዓቶች</h4>
+            <p>
+              <strong>ሰኞ-ቅዳሜ:</strong> <span>ከጠዋቱ 11 ሰዓት - ምሽቱ 11 ሰዓት</span><br>
+              <strong>እሁድ:</strong> <span>ዝግ</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>ተከተሉን</h4>
+          <div class="social-links d-flex">
+            <a href="https://t.me/MysticVoyager3" class="telegram"><i class="bi bi-telegram"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="branding-banner mt-4" data-aos="zoom-in" data-aos-delay="100">
+        <h4>የተነደፈ በ<span class="brand-highlight">ኤልሰን ሶፍትዌር ግሩፕ</span></h4>
+        <p>እንደዚህ ያለ ልዩ ዲጂታል ምናሌ ለመግቢያ ቤትዎ ይፈልጋሉ? በእኛ የፈጠራ ዲዛይኖች ደንበኞችዎን ያስደምሙ!</p>
+        <a href="https://t.me/MysticVoyager3" class="cta-btn">አሁን ያግኙን!</a>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>የቅጂ መብት</span> <strong class="px-1 sitename">ሚኪያስ ሆቴል</strong> <span>ሁሉም መብቶች ተጠብቀዋል</span></p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div> 
+
+   <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> 
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
